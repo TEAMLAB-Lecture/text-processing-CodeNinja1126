@@ -67,7 +67,7 @@ def no_vowels(input_string):
     """
     no_vowel_string = input_string[:]
     
-    vowels = 'aeiou'
+    vowels = 'aeiouAEIOU'
     for vowel in vowels:
         word_list = no_vowel_string.split(sep = vowel)
         no_vowel_string = ''

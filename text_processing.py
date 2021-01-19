@@ -34,7 +34,7 @@ def normalize(input_string):
              'extra space'
     """
     normalized_string = input_string[:]
-    normalized_string.lower()
+    normalized_string = normalized_string.lower()
     
     word_list = normalized_string.split()
     normalized_string = ''
